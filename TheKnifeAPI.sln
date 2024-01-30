@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKnife.API", "TheKnife.API\TheKnife.API.csproj", "{1BF55635-FCA8-47F0-8ACC-199BF9BE575B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{75CDCF66-B735-4004-84DF-CE53283313DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Services", "02-Services", "{496DB2B6-94FE-44A2-9275-03E1E6C3705D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Persistance", "03-Persistance", "{1DED1ADB-B1CA-49F9-A71D-25E2C40CFEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKnife.Services", "TheKnife.Services\TheKnife.Services.csproj", "{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKnife.Entities", "TheKnife.Entities\TheKnife.Entities.csproj", "{01721EC0-940D-42EA-831B-0AF5361CB982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKnife.EntityFramework", "TheKnife.EntityFramework\TheKnife.EntityFramework.csproj", "{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF55635-FCA8-47F0-8ACC-199BF9BE575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF55635-FCA8-47F0-8ACC-199BF9BE575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF55635-FCA8-47F0-8ACC-199BF9BE575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF55635-FCA8-47F0-8ACC-199BF9BE575B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01721EC0-940D-42EA-831B-0AF5361CB982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01721EC0-940D-42EA-831B-0AF5361CB982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01721EC0-940D-42EA-831B-0AF5361CB982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01721EC0-940D-42EA-831B-0AF5361CB982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BF55635-FCA8-47F0-8ACC-199BF9BE575B} = {75CDCF66-B735-4004-84DF-CE53283313DE}
+		{80CEDA9E-2E69-4A12-8CC8-DF889D68F1BB} = {496DB2B6-94FE-44A2-9275-03E1E6C3705D}
+		{01721EC0-940D-42EA-831B-0AF5361CB982} = {1DED1ADB-B1CA-49F9-A71D-25E2C40CFEF8}
+		{02E17A37-DAA3-4F7A-85BF-5A7A95F28BE3} = {1DED1ADB-B1CA-49F9-A71D-25E2C40CFEF8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A15FE2-3104-4A5F-A697-FFD57D77441B}
+	EndGlobalSection
+EndGlobal
